@@ -1,0 +1,12 @@
+Endpoints:
+
+Authentication : 
+    Get User Token : 
+                    API: /api/userinfo/authenticate 
+		        Payload : { "username":"Test User", "password":"Test123" } 
+			  Response: { "id": "905e1fe0-851e-4489-90d5-d15eee45705f", "username": "Test User", "password": "Test123", "confirmPassword": null, "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6IjkwNWUxZmUwLTg1MWUtNDQ4OS05MGQ1LWQxNWVlZTQ1NzA1ZiIsIm5iZiI6MTY4NDg1NTAwMSwiZXhwIjoxNjg1NDU5ODAxLCJpYXQiOjE2ODQ4NTUwMDF9.8vg6xKhvlPKdVxUOpbQGFnhRO23bcVcFJG_7qffUe6A" }
+
+Find rectangles
+
+Api : /api/rectangle/search?x=-23.52&y=-14.74 
+Response : Return the list of rectangles
